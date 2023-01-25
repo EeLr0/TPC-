@@ -1,0 +1,211 @@
+/*
+--- 01 Sistema Tipografia 
+  -FONT SIZE SYSTEM (px)
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+  - Font weights: 
+
+  - Line heights:
+  Default: 1
+
+--- 02 CORES 
+
+  - Primário: #e67e22
+  - Tints: 
+  - Shades: 
+  - Accents: 
+  - Greys:#555
+
+--- 03 imagens
+
+--- 04 icons
+
+--- 05 Shadows 
+
+--- 06 Border-Radius
+
+--- 07 Espaço Branco
+      SPACING SYSTEM (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+/*
+--- 01 Sistema Tipografia 
+  -FONT SIZE SYSTEM (px)
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+  - Font weights: 
+
+  - Line heights:
+  Default: 1
+
+--- 02 CORES 
+
+  - Primário: #e67e22
+  - Tints: 
+  - Shades: 
+  - Accents: 
+  - Greys:#555
+
+--- 03 imagens
+
+--- 04 icons
+
+--- 05 Shadows 
+
+--- 06 Border-Radius
+
+--- 07 Espaço Branco
+      SPACING SYSTEM (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+/* - - - - - - - - - - - - - - - */
+/* SECÇÂO HERO */
+/* - - - - - - - - - - - - - - - */
+
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 9.6rem 0;
+}
+
+.hcontainer {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 8rem;
+}
+
+.titulo-principal {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #333;
+  margin-bottom: 3.2rem;
+}
+
+.hero-conteudo {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  font-size: 2rem;
+  border-radius: 9px;
+  padding: 1.6rem 3.2rem;
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.btn--principal {
+  margin-right: 1rem;
+}
+
+.logo {
+  height: 2.3rem;
+}
+
+header {
+  display: flex;
+  background-color: #fdf2e9;
+  align-items: center;
+  height: 9.6rem;
+  justify-content: space-between;
+  padding: 0 4.8rem;
+}
+
+nav a {
+  margin-right: 1.6rem;
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #e67e22;
+}
+
+nav nav a:link,
+nav a:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.btn-background:link,
+.btn-background:visited {
+  background-color: #e67e22;
+  border-radius: 9px;
+  padding: 1.2rem 2rem;
+  color: #fff;
+}
+
+.btn-background:hover {
+  background-color: #cf711f;
+}
+
+.btn--principal:link,
+.btn--principal:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.btn--secundario:link,
+.btn--secundario:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn--principal:hover,
+.btn--principal:active {
+  background-color: #cf711f;
+}
+
+.btn--secundario:hover,
+.btn--secundario:active {
+  background-color: #fdf2e9;
+}
+
+.hero-img {
+  width: 100%;
+}
